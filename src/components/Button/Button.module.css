@@ -1,0 +1,44 @@
+.base {
+    @apply font-medium rounded-md border border-transparent px-3 py-2 leading-snug transition-colors duration-300;
+    @apply outline-none focus:ring-offset-2 focus:ring-1;
+}
+
+.button {
+    @apply text-white;
+}
+
+.primary {
+    @apply bg-blue-700 hover:bg-blue-800 focus:ring-blue-700;
+}
+
+.secondary {
+    @apply bg-gray-700 hover:bg-gray-800 focus:ring-gray-700;
+}
+
+.success {
+    @apply bg-green-700 hover:bg-green-800 focus:ring-green-700;
+}
+
+.danger {
+    @apply bg-red-700 hover:bg-red-800 focus:ring-red-700;
+}
+
+.link {
+    @apply text-gray-700 bg-transparent hover:text-gray-800 hover:underline underline-offset-2 focus:ring-gray-700;
+}
+
+.link.disabled {
+    @apply text-gray-500;
+}
+
+.button.disabled {
+    @apply bg-gray-500 hover:bg-gray-400;
+}
+
+.loading {
+    @apply animate-pulse;
+}
+
+.full {
+    @apply w-full;
+}

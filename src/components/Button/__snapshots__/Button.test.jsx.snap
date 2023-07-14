@@ -1,0 +1,243 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > Button type danger matches snapshot 1`] = `
+<button
+  class="_base_2a1efe _danger_2a1efe _button_2a1efe"
+  data-testid="danger"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type danger matches snapshot in disabled state 1`] = `
+<button
+  class="_base_2a1efe _danger_2a1efe _disabled_2a1efe _button_2a1efe"
+  data-testid="danger"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type danger matches snapshot in full width 1`] = `
+<button
+  class="_base_2a1efe _danger_2a1efe _full_2a1efe _button_2a1efe"
+  data-testid="danger"
+>
+  Full
+</button>
+`;
+
+exports[`Button > Button type danger matches snapshot in loading state 1`] = `
+<button
+  class="_base_2a1efe _danger_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="danger"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type danger matches snapshot in mixed state 1`] = `
+<button
+  class="_base_2a1efe _danger_2a1efe _disabled_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="danger"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type link matches snapshot 1`] = `
+<button
+  class="_base_2a1efe _link_2a1efe"
+  data-testid="link"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type link matches snapshot in disabled state 1`] = `
+<button
+  class="_base_2a1efe _link_2a1efe _disabled_2a1efe"
+  data-testid="link"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type link matches snapshot in full width 1`] = `
+<button
+  class="_base_2a1efe _link_2a1efe _full_2a1efe"
+  data-testid="link"
+>
+  Full
+</button>
+`;
+
+exports[`Button > Button type link matches snapshot in loading state 1`] = `
+<button
+  class="_base_2a1efe _link_2a1efe _loading_2a1efe"
+  data-testid="link"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type link matches snapshot in mixed state 1`] = `
+<button
+  class="_base_2a1efe _link_2a1efe _disabled_2a1efe _loading_2a1efe"
+  data-testid="link"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type primary matches snapshot 1`] = `
+<button
+  class="_base_2a1efe _primary_2a1efe _button_2a1efe"
+  data-testid="primary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type primary matches snapshot in disabled state 1`] = `
+<button
+  class="_base_2a1efe _primary_2a1efe _disabled_2a1efe _button_2a1efe"
+  data-testid="primary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type primary matches snapshot in full width 1`] = `
+<button
+  class="_base_2a1efe _primary_2a1efe _full_2a1efe _button_2a1efe"
+  data-testid="primary"
+>
+  Full
+</button>
+`;
+
+exports[`Button > Button type primary matches snapshot in loading state 1`] = `
+<button
+  class="_base_2a1efe _primary_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="primary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type primary matches snapshot in mixed state 1`] = `
+<button
+  class="_base_2a1efe _primary_2a1efe _disabled_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="primary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type secondary matches snapshot 1`] = `
+<button
+  class="_base_2a1efe _secondary_2a1efe _button_2a1efe"
+  data-testid="secondary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type secondary matches snapshot in disabled state 1`] = `
+<button
+  class="_base_2a1efe _secondary_2a1efe _disabled_2a1efe _button_2a1efe"
+  data-testid="secondary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type secondary matches snapshot in full width 1`] = `
+<button
+  class="_base_2a1efe _secondary_2a1efe _full_2a1efe _button_2a1efe"
+  data-testid="secondary"
+>
+  Full
+</button>
+`;
+
+exports[`Button > Button type secondary matches snapshot in loading state 1`] = `
+<button
+  class="_base_2a1efe _secondary_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="secondary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type secondary matches snapshot in mixed state 1`] = `
+<button
+  class="_base_2a1efe _secondary_2a1efe _disabled_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="secondary"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type success matches snapshot 1`] = `
+<button
+  class="_base_2a1efe _success_2a1efe _button_2a1efe"
+  data-testid="success"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type success matches snapshot in disabled state 1`] = `
+<button
+  class="_base_2a1efe _success_2a1efe _disabled_2a1efe _button_2a1efe"
+  data-testid="success"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type success matches snapshot in full width 1`] = `
+<button
+  class="_base_2a1efe _success_2a1efe _full_2a1efe _button_2a1efe"
+  data-testid="success"
+>
+  Full
+</button>
+`;
+
+exports[`Button > Button type success matches snapshot in loading state 1`] = `
+<button
+  class="_base_2a1efe _success_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="success"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Button type success matches snapshot in mixed state 1`] = `
+<button
+  class="_base_2a1efe _success_2a1efe _disabled_2a1efe _button_2a1efe _loading_2a1efe"
+  data-testid="success"
+>
+  Test
+</button>
+`;
+
+exports[`Button > Custom class matches snapshot 1`] = `
+<button
+  class="_base_2a1efe _primary_2a1efe _button_2a1efe classy"
+>
+  Style
+</button>
+`;
+
+exports[`Button > Custom component matches snapshot 1`] = `
+<a
+  class="_base_2a1efe _primary_2a1efe _button_2a1efe"
+  href="#"
+>
+  Link
+</a>
+`;
