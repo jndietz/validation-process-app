@@ -20,16 +20,6 @@ export const endpoints = {
             throw e;
         }
     },
-    // Update configuration by id
-    postConfig: (id) => async (body) => {
-        try {
-            const { data } = await api.post(uris.configUri(id), body);
-
-            return data;
-        } catch (e) {
-            throw e;
-        }
-    },
 };
 
 // List of query keys

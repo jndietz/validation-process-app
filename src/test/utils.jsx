@@ -5,9 +5,9 @@ afterEach(() => {
     TestingLibrary.cleanup();
 });
 
-const defaultQueryClient = new QueryClient({
+const defaultQueryClientConfig = {
     defaultOptions: { queries: { staleTime: Infinity, retry: false } },
-});
+};
 
 /**
  * @param {React.ReactElement} callback
@@ -16,7 +16,10 @@ const defaultQueryClient = new QueryClient({
  */
 const customRender = (
     ui,
-    { queryClient = defaultQueryClient, ...options } = {},
+    {
+        queryClient = new QueryClient(defaultQueryClientConfig),
+        ...options
+    } = {},
 ) => ({
     ...TestingLibrary.render(ui, {
         ...options,
@@ -37,7 +40,10 @@ const customRender = (
  */
 const customRenderHook = (
     callback,
-    { queryClient = defaultQueryClient, ...options } = {},
+    {
+        queryClient = new QueryClient(defaultQueryClientConfig),
+        ...options
+    } = {},
 ) => ({
     ...TestingLibrary.renderHook(callback, {
         ...options,
@@ -51,8 +57,4 @@ const customRenderHook = (
 });
 
 export * from '@testing-library/react';
-export {
-    customRender as render,
-    customRenderHook as renderHook,
-    defaultQueryClient,
-};
+export { customRender as render, customRenderHook as renderHook };
