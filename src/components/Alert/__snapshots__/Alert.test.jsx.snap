@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Alert > Default severity level matches snapshot 1`] = `
+<div
+  class="_alert_6cfd7b _alert-info_6cfd7b"
+>
+  Default
+</div>
+`;
+
+exports[`Alert > Passes className to child and matches snapshot 1`] = `
+<div
+  class="_alert_6cfd7b _alert-info_6cfd7b test"
+>
+  Classy
+</div>
+`;
+
+exports[`Alert > Severity level error matches snapshot 1`] = `
+<div
+  class="_alert_6cfd7b _alert-error_6cfd7b"
+  data-testid="error"
+>
+  Test
+</div>
+`;
+
+exports[`Alert > Severity level info matches snapshot 1`] = `
+<div
+  class="_alert_6cfd7b _alert-info_6cfd7b"
+  data-testid="info"
+>
+  Test
+</div>
+`;
+
+exports[`Alert > Severity level success matches snapshot 1`] = `
+<div
+  class="_alert_6cfd7b _alert-success_6cfd7b"
+  data-testid="success"
+>
+  Test
+</div>
+`;
+
+exports[`Alert > Severity level warning matches snapshot 1`] = `
+<div
+  class="_alert_6cfd7b _alert-warning_6cfd7b"
+  data-testid="warning"
+>
+  Test
+</div>
+`;

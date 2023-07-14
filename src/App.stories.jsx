@@ -4,7 +4,7 @@ import { rest } from 'msw';
 import { assignedConfig } from './stubs/config';
 
 export default {
-    title: 'Components/App',
+    title: 'App',
     component: App,
 };
 
@@ -28,13 +28,11 @@ Error.parameters = {
     msw: {
         handlers: [
             rest.get(uris.configUri(':id'), (_req, res, ctx) => {
-                return res.once(
+                return res(
                     ctx.status(500),
                     ctx.json({ message: 'Error' }),
+                    ctx.delay(500),
                 );
-            }),
-            rest.get(uris.configUri(':id'), (_req, res, ctx) => {
-                return res(ctx.json(assignedConfig), ctx.delay(500));
             }),
         ],
     },
